@@ -42,3 +42,20 @@ print(invitation_3)
 print(invitation_4)
 print(invitation_6)
 
+
+print("We can invite only two people for dinner.")
+
+popped_1 = guests.pop()
+print(f'Sorry {popped_1.title()}, I can no longer invite you.')
+popped_2 = guests.pop()
+print(f'Sorry {popped_2.title()}, I can no longer invite you.')
+popped_3 = guests.pop()
+print(f'Sorry {popped_3.title()}, I can no longer invite you.')
+popped_4 = guests.pop()
+print(f'Sorry {popped_4.title()}, I can no longer invite you.')
+
+print(f'You are still invited {guests[0].title()}')
+print(f'You are still invited {guests[1].title()}')
+
+
+print(guests)
